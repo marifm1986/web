@@ -73,43 +73,35 @@
 
 // ...............................
 
-var friends = ['arif', 'asif', 'mehboob'];
-alert(friends[1]);
-
-alert("Its is the zombie apocalypse. you are looting a store and suddently a zombie bursts through the dorr!");
-
-
-var weapon = prompt("Select you weapon from here:'gun','knife', 'rock', 'bomb'");
-
-var randomNumber = Math.round(Math.random());
-
-alert("you are going to attack the zombie with your " + " " + weapon);
-
-if(randomNumber === 0){
-	alert("the zombie bite you. you lose!!!");
-}else if(randomNumber === 1)
-{
-	alert("you kill the zombie with your " + " " + weapon + " You win !");
-}
+// var friends = ['arif', 'asif', 'mehboob'];
+// alert(friends[1]);
 
 // ...............................
 
 
+// alert("Its is the zombie apocalypse. you are looting a store and suddently a zombie bursts through the dorr!");
 
 
+// var weapon = prompt("Select you weapon from here:'gun','knife', 'rock', 'bomb'");
+
+// var randomNumber = Math.round(Math.random());
+
+// alert("you are going to attack the zombie with your " + " " + weapon);
+
+// if(randomNumber === 0){
+// 	alert("the zombie bite you. you lose!!!");
+// }else if(randomNumber === 1)
+// {
+// 	alert("you kill the zombie with your " + " " + weapon + " You win !");
+// }
+
+// ...............................
 
 
+var a = 6;
+var b = (100+50) * a;
 
-
-
-
-
-
-
-
-
-
-
+document.getElementById('ttext').innerHTML = b;
 
 
 

@@ -1,14 +1,61 @@
-#demo{
-	text-align: center;
-	font-size: 70px;
+body{
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+
+}
+
+section{
+	width: 100%;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: absolute;
+
+
+}
+
+section .bg {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background:url(bg.jpg);
+	background-size: cover;
+	filter: blur(20px);
+	transition: 2s;
+
+}
+
+section .txt{
+	position: absolute;
+	top: 20%;
+	left: 50%;
+	text-transform: uppercase;
 	color: blue;
-	padding-bottom: 20px;
+	padding:0;
+	z-index: 1;
+	filter: blur(20px);
+	transition: 2s;
 }
 
+.logo{
+	position: relative;
+	z-index: 1;
+	transition: 1s;
+}
 
-#msg{
-	font-size: 50px;
-	color: green;
+.logo:hover{
+	filter: blur(20px);
+	transform: scale(2);
+	}
+
+
+	.logo:hover ~ .bg  {
+	filter: blur(0px);
+	transform: scale(2);
+	}
+
 	
-
-}
