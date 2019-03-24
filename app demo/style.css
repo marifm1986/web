@@ -65,20 +65,31 @@ transform: scale(.8);
 .recent-list{
 	position: absolute;
 	margin: 250px auto;
-	align-items: center;
+/*	align-items: center;
 	justify-content: center;
+	align-self: center;*/
+
+ 
+
+
+
+
 }
 
 .recent-list img{
 	transition: .3s;
-	padding: 50px;
+	padding: 40px;
+	background: #fff;
+	box-shadow: 0 3px 10px grey ;
+	border-radius: 2px;
+	
 
 
 }
 
 .recent-list li{
 	list-style: none;
-	padding-left: 70px;
+	padding-left: 120px;
 	display: block;
 
 
