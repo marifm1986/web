@@ -1,0 +1,202 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+
+.container{
+margin: 0;
+	padding: 0;	
+}
+
+.main{
+
+position: relative;
+width: 1920px;
+height: 1080px;
+
+background: #FFFFFF;
+}
+
+.RectangleTitle{
+
+position: absolute;
+width: 1920px;
+height: 50px;
+left: 0px;
+top: 0px;
+background: #6C6C6C;
+
+}
+
+
+.logo{
+
+position: absolute;
+width: 124px;
+height: 24px;
+left: 23px;
+top: 13px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: normal;
+
+color: #FFFFFF;
+} 
+
+
+.verticalLine{
+
+position: absolute;
+width: 0px;
+height: 47px;
+left: 177px;
+top: 1px;
+
+border: 1px solid #989898;
+}
+
+.menuBar{
+
+position: absolute;
+width: 1920px;
+height: 49px;
+left: 0px;
+top: 48px;
+background: #CCCCCC;
+transform: matrix(1, 0, 0, -1, 0, 0);
+
+}
+
+.HamBurger{
+font-size: 2.2em;
+margin: 7px 15px;
+transition: .5s;
+}
+
+.HamBurger:hover{
+color: #fff;
+}
+
+
+
+.dropDownMenu{
+opacity: 1;
+position: absolute;
+width: 200px;
+height: 139px;
+left: 0px;
+top: 101px;
+background: #FFFFFF;
+border: 1px solid #CCCCCC;
+box-sizing: border-box;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+}
+
+
+.dropDownMenu ul{
+	.dropDownMenu u
+}
+
+
+.dropDownMenu ul li{
+
+	list-style: none;
+	line-height: 28px;
+	transition: .2s;
+}
+
+.dropDownMenu ul li:hover{
+width: 100%;
+background: #25B1FF;
+box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.21);
+font-weight: 600;
+}
+
+.dropDownMenu ul li:active{
+transform-origin: right;
+transform: scale(.9);
+}
+
+.brandDisplay{
+
+position: absolute;
+width: 263px;
+height: 209px;
+margin: 10px;
+top: 127px;
+background: #FFFFFF;
+border: 1px solid #CCCCCC;
+
+transition: .3s;
+cursor: pointer;
+
+
+}
+
+.brandDisplay:hover{
+box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+
+}
+
+.brandDisplay:active{
+transform: scale(.95);
+
+}
+
+.brandDisplay a{
+text-decoration: none;
+}
+
+.titleBar{
+position: absolute;
+width: 263px;
+height: 33px;
+background: #FFC225;
+box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.21);
+}
+.titleBar h1{
+	margin: 0;
+	margin-left: 1vw;
+	font-size: 25px;
+}
+
+.ProductMenubar{
+display: flex;
+position: absolute;
+width: 1920px;
+height: 59px;
+top: 97px;
+background: #FFC225;
+box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.21);
+}
+.ProductMenubar ul{
+	list-style: none;
+	display: flex;
+	
+
+}
+
+.ProductMenubar ul li{
+	margin-left: 50px;
+	font-size: 1.5em;
+	border-left: 1px solid grey;
+	right: 0px;
+	position: relative;
+	transition: .3s;
+	cursor: pointer;
+
+}
+
+.ProductMenubar ul li:hover{
+	transform: scale(1.1);
+}
+
+
+.ProductMenubar ul li:active{
+	transform: scale(.9);
+}
+
